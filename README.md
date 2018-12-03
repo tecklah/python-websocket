@@ -7,4 +7,6 @@ A sample project using Python to create a web socket server and a Kafka listener
 4. Startup the web socket server on the same machine using 127.0.0.1:8081.
 5. Startup the Kafka listener to poll data from 'test' topic and send them to the web socket server.
 
-You can create a front-end HTML page that connects to the web socket server and display any incoming data from the web socket server. A sample of the HTML page will be make available when ready.
+You can create a front-end HTML page that connects to the web socket server and display any incoming data from the web socket server. 
+
+A sample Python web application that get data via web socket from the server is available in source folder.
