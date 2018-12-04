@@ -3,7 +3,6 @@
 import asyncio
 import logging
 import websockets
-import json
 
 connectedWebsocket = set()
 
