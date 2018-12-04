@@ -9,3 +9,6 @@ A sample project using Python to create a web socket server and a Kafka listener
 6. Startup the sample web application "app.py" to run on port 127.0.0.1:8080.
 
 The sample web application gets data via web socket from the server. The Kafka listener send data to the web socket server when the interval polling managed to retrieve data from Kafka server.
+
+Learning points :
+1. Kafka listener opens a connection to the web socket server. In order to keep the connection alive, it requires send or get data activities to be triggered periodically.
